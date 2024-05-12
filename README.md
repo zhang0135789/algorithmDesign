@@ -1,4 +1,4 @@
-# designMode
+# algorithmDesign
 软考-算法
 欢迎交流qq群 ： 786937587
 
