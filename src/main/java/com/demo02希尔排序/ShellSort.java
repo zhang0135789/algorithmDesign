@@ -1,7 +1,5 @@
 package com.demo02希尔排序;
 
-import com.demo01直接插入排序.insertionSort;
-
 import java.util.Arrays;
 
 /**
@@ -10,12 +8,12 @@ import java.util.Arrays;
  * @Date: 17:43 2024/05/12 0012
  * @Modified By
  */
-public class shellSort {
+public class ShellSort {
 
     public static void main(String[] args) {
         int[] nums = {1, 4, 3, 2, 6, 5, 8, 7, 9};
         System.out.println("排序前" + Arrays.toString(nums));
-        shellSort.shellSort(nums);
+        ShellSort.shellSort(nums);
         System.out.println("排序后"+Arrays.toString(nums));
     }
 

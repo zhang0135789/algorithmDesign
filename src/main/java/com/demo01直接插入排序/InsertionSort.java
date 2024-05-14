@@ -8,12 +8,12 @@ import java.util.Arrays;
  * @Date: 17:26 2024/05/12 0012
  * @Modified By
  */
-public class insertionSort {
+public class InsertionSort {
 
     public static void main(String[] args) {
         int[] nums = {1, 4, 3, 2, 6, 5, 8, 7, 9};
         System.out.println("排序前" + Arrays.toString(nums));
-        insertionSort.insertionSort(nums);
+        InsertionSort.insertionSort(nums);
         System.out.println("排序后"+Arrays.toString(nums));
     }
 
